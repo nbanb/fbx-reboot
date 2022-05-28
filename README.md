@@ -38,7 +38,14 @@ MY_APP_TOKEN="4uZTLMMwSyiPB42tSCWLpSSZbXIYi+d+F32tVMx2j1p8oSUUk4Awr/OMZne4RRlY"
 ```
 
 
-#### Now you can update fbx-reboot with your just obtained values.
+#### Now you can download & update fbx-reboot with your just obtained values.
+
+```bash
+$ curl -L https://raw.githubusercontent.com/nbanb/fbx-reboot/main/fbx-reboot >fbx-reboot 
+$ chmod +x fbx-reboot
+```
+
+Update `fbx-reboot` program with your just obtain values :
 ```bash
 MY_APP_ID="YourNewFBXVM.app" 
 MY_APP_TOKEN="YourNewFBXVM.app.JustObtainToken"
